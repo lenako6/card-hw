@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta class="description" content="Lena is a front-end developer" />
+    <title>Front-end developer Lena Kotula</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -35,29 +36,31 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img
-          src="images/ySjA-logo.png"
-          class="logo d-none d-md-block"
-          alt="logo"
-        />
-        <img
-          src="images/L9xk-logo-small.jpg"
-          class="logo d-block d-mb-none"
-          alt="logo"
-        />
+        <a href="/" title="Home page">
+          <img
+            src="images/ySjA-logo.png"
+            class="logo d-none d-md-block"
+            alt="logo"
+          />
+          <img
+            src="images/L9xk-logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="logo"
+          />
+        </a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Home page">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Lena">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Lena's work">Work</a>
           </li>
 
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -69,7 +72,9 @@
 
       <h2 class="mb-5">Front-end developer based in Poland</h2>
       <div>
-        <a href="about.html" , class="btn btn-branding">Contact me</a>
+        <a href="contact.html" title="Contact me" class="btn btn-branding"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="content-title text-center m-5">
@@ -78,7 +83,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-md-block">
-          <img src="images/cH4m-yogurt.png" class="img-fluid" />
+          <img
+            src="images/cH4m-yogurt.png"
+            alt="Yogurt project"
+            class="img-fluid"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -89,7 +98,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" , class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" , class="btn btn-branding-outline"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -104,17 +115,27 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" , class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" , class="btn btn-branding-outline"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="col d-none d-md-block">
-          <img src="images/jxM9-weather.png" class="img-fluid" />
+          <img
+            src="images/jxM9-weather.png"
+            alt="Weather project"
+            class="img-fluid"
+          />
         </div>
       </div>
 
       <div class="row mb-5">
         <div class="col d-none d-md-block">
-          <img src="images/dgHV-dictionary.png" class="img-fluid" />
+          <img
+            src="images/dgHV-dictionary.png"
+            alt="Dictionary project"
+            class="img-fluid"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -125,7 +146,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" , class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" , class="btn btn-branding-outline"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -137,7 +160,9 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn-brandingmt-3">Contact me</a>
+            <a href="contact.html" title="Contact" class="btn-branding mt-3"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center">
@@ -146,17 +171,25 @@
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://instagram.com">
-            <i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="https://github.com/lenako6" targer="_blank">
+          <a
+            href="https://github.com/lenako6/card-hw"
+            title="Github profile"
+            targer="_blank"
+          >
             <i class="fa-brands fa-github"></i
           ></a>
+          <a href="https://instagram.com" title="Instagram">
+            <i class="fa-brands fa-instagram"></i
+          ></a>
 
-          <a href="https://facebook.com">
+          <a href="https://facebook.com" title="Facebook">
             <i class="fa-brands fa-facebook"></i>
           </a>
         </div>
+        <p class="text-center mt-4">
+          This project was coded Shecodes, and it is
+          <a href="https://github.com/lenako6/card-hw">open-sourced</a>
+        </p>
       </footer>
     </div>
   </body>
